@@ -106,8 +106,6 @@ body:
       options:
         - Always
         - Sometimes
-        - Once
-        - Unable to reproduce
     validations:
       required: true
 
@@ -123,6 +121,4 @@ body:
       label: Before submitting
       options:
         - label: I searched existing issues and this is not a duplicate
-          required: true
-        - label: I am testing the Carbon release build
           required: true
